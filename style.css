@@ -64,15 +64,11 @@
   p{
     font-size: 1rem;
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2 {
     letter-spacing: 0.05rem;
   }
   section p:first-of-type {
     text-indent: 20px;
-  }
-  a{
-    color:#a66;
-    text-decoration: underline;
   }
   a:link{
     color:rgb(215, 100, 100)
@@ -111,14 +107,25 @@
     list-style-type: square;
   }
 
-  .nav {
-    height: 50px;
-    padding: 10px 0;
-  }
-  
-  .nav ul li {
-    height: 50px;
 
+  nav ul li {
+    height: 50px;
     margin-bottom: 10px;
+    border: #da7a3b 3px solid ;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
   }
+
+  aside ul li{
+    font-size: 15px;
+  }
+  section ul li{
+    font-size: 15px;
+  }
+  section ol{
+    list-style-type: lower-alpha;
+    font-size: 15px;
+  }
+
   
