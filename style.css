@@ -70,30 +70,49 @@
   section p:first-of-type {
     text-indent: 20px;
   }
-  a:link{
-    color:rgb(215, 100, 100)
-  }
-  a:visited{
-    color: rgb(145, 6, 6);
-  }
-  a:hover {
-    color: #c9743c;
-  }
-  a:focus {
-    outline: none;
-  }
-  a:active{
-    background-color: #da7a3b;
-    color: #fff;
+  a{
+    color: #FF6A4D;
+    text-decoration: underline;
+}
+h1+p , h2+p{
+  text-indent: 20px;
+}
+
+a:active{
+    color: black;
+}
+a:hover{
+    color:#CC0000;
     text-decoration: none;
-  }
-  a[href^="http://"], a[href^="https://"] {
-    padding-right: 20px;
-    background-image: url(link.png);
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: contain;
-  }
+}
+
+a:visited{
+    color: #FF9966;
+}
+
+a:focus{
+    color: #cb210e;
+    text-decoration: none;
+    outline: none;
+}
+nav > ul{
+  list-style-type: none;
+}
+
+nav > ul > li{
+    /* margin-bottom: 1rem; */
+  padding: 1rem;
+  border: 2px solid #a66;
+  text-align: center;
+  
+}
+p a{
+  padding-right: 20px;
+  background-image: url(link.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+}
 
   li{
     line-height: 1.5;
@@ -123,9 +142,22 @@
   section ul li{
     font-size: 15px;
   }
-  section ol{
-    list-style-type: lower-alpha;
+  section ol {
+    margin-top: 0;
+    margin-bottom: 1em;
     font-size: 15px;
   }
+  nav > ul{
+    list-style-type: none;
+}
 
-  
+.nav ul li {
+  height: 50px;
+  margin-bottom: 10px;
+  padding: 20px 30px;
+  border-radius: 2px;
+  text-decoration: none;
+  border-color: #FF6A4D;
+  display: inline-block;
+  background-color: black;
+}
